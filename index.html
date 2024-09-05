@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://cf.xmgirl.pp.ua/favicon.ico" type="image/x-icon">
+<style>
+  body {
+    background: linear-gradient(to right, #fff, #fce3e3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0366d6;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #language-switch {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  #language-switch a {
+    text-decoration: none;
+    color: #0366d6;
+  }
+  #language-switch a:hover {
+    text-decoration: underline;
+  }
+  /* 新增样式：雪花和星星 */
+  .snowflake {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  /* 隐藏ipinfo.io信息直到用户点击确认按钮 */
+  #ipinfo-info {
+    display: none;
+  }
+  /* 优化按钮样式 */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #add8e6;
+    border: 2px solid #0366d6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #63a0d4;
+  }
+</style>
+<title>检查连接安全性</title>
+</head>
+<body>
+
+<img src="https://cf.xmgirl.pp.ua/favicon.png" alt="Logo" id="logo">
+<h2>兰科的Github Photo Storage</h2>
+
+<!-- 雪花效果 -->
+<script type="850526ece19676d0fdcfd2fe-text/javascript">
+  document.addEventListener('mousemove', function (e) {
+    var snowflake = document.createElement('div');
+    snowflake.className = 'snowflake';
+    snowflake.style.left = e.pageX + 'px';
+    snowflake.style.top = e.pageY + 'px';
+    document.body.appendChild(snowflake);
+
+    // 移除雪花元素
+    setTimeout(function () {
+      snowflake.remove();
+    }, 5000);
+  });
+</script>
+
+<!-- 星星效果 -->
+<script type="850526ece19676d0fdcfd2fe-text/javascript">
+  document.addEventListener('mousemove', function (e) {
+    var star = document.createElement('div');
+    star.className = 'star';
+    star.style.left = e.pageX + 'px';
+    star.style.top = e.pageY + 'px';
+    document.body.appendChild(star);
+
+    // 移除星星元素
+    setTimeout(function () {
+      star.remove();
+    }, 2000);
+  });
+</script>
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="850526ece19676d0fdcfd2fe-|49" defer></script></body>
+</html>
